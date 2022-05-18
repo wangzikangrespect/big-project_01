@@ -47,7 +47,7 @@ $('#login-btn').click(function(e){
             if(res.status!==0) return res.message
             console.log('登录成功')
             localStorage.setItem('token',res.token)
-            location.href='/index.html'
+            location.href='./index.html'
         }
     });
 })
